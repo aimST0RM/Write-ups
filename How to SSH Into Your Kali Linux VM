@@ -1,8 +1,8 @@
 Run the following commands on your Kali VM:
 Sudo apt update
 sudo apt install openssh-server
-sudo systemctl start ssh
-sudo systemctl status ssh
-Ifconfig (locate IP address)
+sudo service ssh start
+sudo service ssh status
+Ifconfig (locate active network IP address)
 Open Terminal on your host machine and run the following command
 ssh username@IPaddress(from Kali vm)
